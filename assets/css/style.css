@@ -1114,3 +1114,13 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.btn-download{
+  color: rgba(204, 226, 226, 0.753);
+  background-color: black;
+  padding: 10px;
+  border-radius: 8px;
+  align-self: center;
+  justify-self: center;
+  margin: 2rem auto 0 4rem;
+}
