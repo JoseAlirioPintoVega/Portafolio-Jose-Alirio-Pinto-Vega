@@ -1063,7 +1063,7 @@
             </div>
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form class="php-email-form" netlify>
+              <form class="email-form" netlify>
                 <div class="row">
                   <div class="form-group col-md-6">
                     <label for="name">Your Name</label>
@@ -1120,13 +1120,13 @@
           </div>
         </div>
 
-        <form name="test">
-          <label for="name">name</label>
-          <input type="text" id="name" name="name" />
-          <label for="email">email</label>
-          <input type="email" id="email" name="email" />
-          <label for="message">message</label>
-          <input type="text" id="message" name="message" />
+        <form name="form-for" netlify>
+          <label for="name">Your Name</label>
+          <input type="text" name="name" required class="form-control" />
+
+          <label for="name">Your Email</label>
+          <input type="email" name="email" required />
+
           <input type="submit" value="Send" />
         </form>
       </section>
