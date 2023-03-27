@@ -856,6 +856,12 @@ section {
 .contact {
   padding-bottom: 130px;
 }
+.yopal img{
+  border-radius: 2rem;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
 
 .contact .info {
   padding: 30px;

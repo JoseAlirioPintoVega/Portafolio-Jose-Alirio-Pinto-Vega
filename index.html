@@ -1052,6 +1052,12 @@
                   <h4>Call:</h4>
                   <p>+57 319 388 3832</p>
                 </div>
+                <div class="yopal">
+                  <img
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/b6/de/15/yopal-visto-desde-el.jpg?w=700&h=500&s=1"
+                    alt=""
+                  />
+                </div>
 
                 <!--  <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
@@ -1063,7 +1069,12 @@
             </div>
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form class="email-form" netlify>
+              <form
+                class="email-form"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+              >
                 <div class="row">
                   <div class="form-group col-md-6">
                     <label for="name">Your Name</label>
@@ -1086,7 +1097,7 @@
                     />
                   </div>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label for="name">Subject</label>
                   <input
                     type="text"
@@ -1095,7 +1106,7 @@
                     id="subject"
                     required
                   />
-                </div>
+                </div> -->
                 <div class="form-group">
                   <label for="name">Message</label>
                   <textarea
@@ -1105,13 +1116,13 @@
                     required
                   ></textarea>
                 </div>
-                <div class="my-3">
+                <!-- <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">
                     Your message has been sent. Thank you!
                   </div>
-                </div>
+                </div> -->
                 <div class="text-center">
                   <button type="submit">Send Message</button>
                 </div>
@@ -1119,30 +1130,6 @@
             </div>
           </div>
         </div>
-
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label
-              >Your Role:
-              <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-              </select></label
-            >
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
       </section>
       <!-- End Contact Section -->
     </main>
